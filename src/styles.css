@@ -1,11 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     color: #1b1b1b;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 .page {
@@ -13,12 +14,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    padding-bottom: 2rem;
+    overflow: auto;
 }
 
 .page p {
     margin-inline: 25%;
     text-align: center;
     font-size: 1.2rem;
+}
+
+mat-toolbar {
+    display: flex;
+    background-color: #1b1b1b;
+    color: #fff;
+    justify-content: space-between;
 }

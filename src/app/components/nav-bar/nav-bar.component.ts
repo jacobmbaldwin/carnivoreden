@@ -1,16 +1,18 @@
 import { Component } from '@angular/core';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
-  selector: 'app-coming-soon',
+  selector: 'app-nav-bar',
   imports: [
+    MatToolbarModule,
     MatButtonModule,
     MatIconModule
   ],
-  templateUrl: './coming-soon.component.html',
-  styleUrl: './coming-soon.component.css'
+  templateUrl: './nav-bar.component.html',
+  styleUrl: './nav-bar.component.css'
 })
-export class ComingSoonComponent {
+export class NavBarComponent {
 
 }
