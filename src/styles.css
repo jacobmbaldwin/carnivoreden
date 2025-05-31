@@ -18,7 +18,7 @@ body {
     overflow: auto;
 }
 
-.page p {
+.page>p {
     margin-inline: 25%;
     text-align: center;
     font-size: 1.2rem;
@@ -30,4 +30,27 @@ mat-toolbar {
     background-color: #1b1b1b;
     color: #fff;
     justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.ctaButton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a.ctaButton:hover {
+    background-color: #696969;
 }

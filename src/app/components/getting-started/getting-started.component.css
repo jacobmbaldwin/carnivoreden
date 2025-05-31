@@ -1,0 +1,25 @@
+.blogContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    min-width: 320px;
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-inline: 5%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.byline {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.articleTitle {
+    margin-bottom: 1rem;
+    color: #333;
+}
